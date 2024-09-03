@@ -1,8 +1,28 @@
-# React + Vite
+# Trivia Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A trivia quiz application built using React and Vite. This app fetches 5 random questions with multiple answers from the Open Trivia Database API and provides a score after answers submission.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the repository:
+   ```bash
+   git clone <repository-url># Trivia Quiz App
+   ```
+
+A trivia quiz application built using React and Vite. This app fetches 5 random questions with multiple answers from the Open Trivia Database API and provides a score after answers submission.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url># Trivia Quiz App
+   ```
+
+A trivia quiz application built using React and Vite. This app fetches 5 random questions with multiple answers from the Open Trivia Database API and provides a score after answers submission.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
