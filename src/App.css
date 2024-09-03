@@ -1,0 +1,126 @@
+.start-page-container{
+  height: 95vh;
+  color: #293264;
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  align-items: center;
+}
+.start-page-container >button{
+  border: none;
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  font-family: karla, sans-serif;
+  font-size: 16px;
+  color: white;
+  background-color: #293264;
+}
+.start-page-container >button:hover{
+  opacity: 50%;
+  cursor: pointer;
+}
+.questions-container{
+  position: relative;
+  width: auto;
+  margin-left: 20%;
+  
+}
+.questions-container > hr{
+  position: absolute;
+  border: 0;
+  border-top: 2px solid #DBDEF0;;
+  width: 80%;
+}
+
+.questions-container >h2{
+  color: #293264;
+}
+.questions-container >h2 >span{
+  font-size: 16px;
+  font-weight: 500;
+  color: #ea6666;
+}
+
+
+
+.question-choice[type="radio"], .answer-choice[type="radio"] {
+  display: none;
+}
+
+/* Style the label to look like a button */
+.question-choice-label, .answer-choice-label {
+  display: inline-block;
+  padding: 8px 20px;
+  margin: 5px;
+  margin-left: 20px;
+  border: 2px solid #4D5B9E;
+  border-radius: 15px;
+  background-color: none;
+  color: #293264;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.answer-choice-label{
+  opacity: 50%;
+  cursor:default;
+}
+.answer-choice-label.correct{
+  opacity: 100%;
+  border: 2px solid #94D7A2;
+  background-color: #94D7A2;
+}
+.answer-choice-label.wrong{
+  border: 2px solid #F8BCBC;
+  background-color: #F8BCBC;
+}
+
+/* Change background color on hover */
+.question-choice-label:hover {
+  background-color: #D6DBF5;
+}
+
+/* Checked state - style the label when the radio button is checked */
+.question-choice[type="radio"]:checked + .question-choice-label {
+  background-color: #D6DBF5;
+  color: #293264;
+}
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  padding-bottom: 20px;
+}
+
+.button-area{
+  margin-top: 40px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.button-area > h1{
+  color: #293264;
+}
+
+.button-area > button{
+ 
+  margin-bottom: px;
+  width:fit-content;
+  height: fit-content;
+  padding: 20px 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: #4D5B9E;
+  color: white;
+  font-family: karla,sans-serif;
+  font-size: 18px;
+  font-weight:800;
+  margin-left: 20px;
+}
+
+.button-area > button:hover{
+  cursor: pointer;
+  opacity: 50%;
+}
